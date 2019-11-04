@@ -1,0 +1,90 @@
+<!-- 
+    ================================================ LER =============================================================
+
+Não consegui terminar, pois também estou no final do semestre da faculdade t_t. Porém, até agora não tive muitas dificuldades. Só não gostei muito dos ícones dentro da borda redonda, não acho que ficou certinho. E também não sei como fazer pra deixar os textos da minha main section que nem o do modelo - em 2 linhas. Ah, e o hover dos ícones ia fazer depois
+
+O resto eu pensei em fazer assim, só pra pelo menos poder avaliar o pensamento:
+
+A parte que tem o vídeo iria fazer uma section contendo duas divs - uma para o texto, input e o botão; a outra para o vídeo embedado. Aí só ajeitar no css, mas acho que ok fazer - tem que botar em display flex, dar space around, colocar background color no botão, ajeitar o padding do botão pro notify ficar no centro, ajustar a cor e tamanho do texto, ajustar os tamanhos das duas divs pra ficar certinho e acho que é isso.
+
+A parte do contato ia fazer 3 divs em coluna - uma com o primeiro texto; outra com o textinho em cima e as fotos; a última com os textos e os ícones (esses é só fazer do mesmo jeito que os outros, só ajustar o tamanho). As fotinhas só ia replicar a mesma, aí só ajeitar o espaço entre elas com o space around (eu acho).
+
+O footer acho que é o mais facil, uma section com uma div com 6 âncoras, ajeita o tamanho dessa div, faz o space around, bota o background color na section e acho q é só.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap" rel="stylesheet">
+    <title>Notify</title>
+</head>
+
+<body>
+    <!-- nav bar = partinha verde em cima -->
+    <nav class="parte_verde"></nav>
+
+    <!-- header/banner - 2 divs = 1 com 2 divs (h1 e icons) outra só com a img do cel na mão; background img -->
+    <header>
+        <span class="espaçoinvisivel"></span>
+        <div class="titulo_e_icons">
+            <div class="titulo">
+                <h1>Notify<span class="ponto">.</span></h1>
+                <h2>A great new free psd theme to showcase your new application</h2>
+            </div>
+
+            <div class="icons">
+                <div class="icone_ios"><img src="imagens/icone-ios.png" alt="Ícone do iOS "></div>
+                <div class="icone_android"><img src="imagens/icone-android.png" alt="Ícone do Android"></div>
+                <div class="icone_windows"><img src="imagens/icone-windows.png" alt="Ícone do Windows"></div>
+            </div>
+
+        </div>
+
+        <div class="imagem_cel">
+            <img src="imagens/hand.png" alt="Uma mão segurando um celular cuja tela é a imagem de fundo.">
+        </div>
+
+    </header>
+
+    <!-- main part - 1 section com 3 divs para cada ícone e a legenda -->
+
+    <main>
+        <div class="main_div"><img class="icone_main" src="imagens/icone1.png" alt="Ícone de um engrenagem">
+            <h3>
+                Editable Theme
+            </h3>
+            <span class="text_main"><h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span></h4>
+        </div>
+
+        <div class="main_div"><img class="icone_main" src="imagens/icone2.png" alt="Ícone de uma estrela">
+            <h3>
+                Flat Design
+            </h3>
+            <span class="text_main"><h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </h4></span>
+        </div>
+
+        <div class="main_div"><img class="icone_main" src="imagens/icone3.png" alt="Ícone do globo terrestre">
+            <h3>
+                Reach Your Audience
+            </h3>
+            
+            <span class="text_main"><h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h4></span>
+        </div>
+    </main>
+
+    
+</body>
+</html>
